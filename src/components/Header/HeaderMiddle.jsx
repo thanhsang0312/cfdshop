@@ -22,9 +22,6 @@ const HeaderMiddle = () => {
             <span className="sr-only">Toggle mobile menu</span>
             <i className="icon-bars" />
           </button>
-          <Link to={PATHS.HOME} className="logo">
-            <img src="/assets/images/logo.svg" alt="Molla Logo" width={160} />
-          </Link>
         </div>
         <nav className="main-nav">
           <MenuStyled className="menu">
